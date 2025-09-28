@@ -1,0 +1,74 @@
+```
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database files
+*.sqlite
+*.sqlite-journal
+*.db
+
+# Coverage directory used by testing
+coverage/
+*.lcov
+
+# Temporary files
+.tmp/
+temp/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDE/editor specific
+.vscode/
+.idea/
+*.iml
+
+# Optional npm/yarn/pnpm lock files (if you don’t want to commit)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Frontend specific
+# Ignore react build and cache
+frontend/build/
+frontend/.cache/
+frontend/node_modules/
+
+# Backend specific
+backend/node_modules/
+backend/dist/
+
+# OS generated files
+ehthumbs.db
+Icon?
+```
